@@ -1,0 +1,42 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "FireApp"
+include ':app'
+include ':hidely'
+include ':cameraView'
+include ':imageeditengine'
+include ':stories-progress-view'
+include ':matisse'
+include ':ccp'
+include ':photoview'
+include ':AXEmojiView-WhatsAppProvider'
+include ':AXEmojiView-EmojidexProvider'
+include ':AXEmojiView-GoogleProvider'
+include ':AXEmojiView'
+include ':OmRecorder'
+include ':androidbuttonprogress'
+include ':StorageChooser'
+include ':StickyHeader'
+include ':musicwave'
+include ':expandablecheckrecyclerview'
+include ':expandablerecyclerview'
+include ':RecordView'
+include ':shimmerlayout'
+include ':adaptersRealm'
+include ':FastScroller'
+include ':materialsearchview'
+include ':multicontactpicker'
+include ':shortcutbadger'
+include ':CircualReveal'

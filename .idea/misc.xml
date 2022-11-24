@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/RecordView/src/main/res/drawable/recv_basket_animated.xml" value="0.1685" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/RecordView/src/main/res/drawable/recv_bg_mic.xml" value="0.1685" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/RecordView/src/main/res/drawable/recv_ic_arrow.xml" value="0.1685" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/RecordView/src/main/res/drawable/recv_ic_delete.xml" value="0.1685" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/RecordView/src/main/res/drawable/recv_ic_mic.xml" value="0.1685" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/RecordView/src/main/res/layout/record_view_layout.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/StorageChooser/src/main/res/drawable/divider.xml" value="0.1685" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/StorageChooser/src/main/res/layout-v21/custom_storage_list.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/StorageChooser/src/main/res/layout-v21/layout_new_folder_iv.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/StorageChooser/src/main/res/layout/custom_storage_list.xml" value="0.21" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/StorageChooser/src/main/res/layout/layout_new_folder_iv.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/StorageChooser/src/main/res/layout/row_custom_paths.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/StorageChooser/src/main/res/layout/row_paths.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/StorageChooser/src/main/res/layout/row_storage.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/StorageChooser/src/main/res/layout/storage_list.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/amdroidbuttonprogress/src/main/res/drawable/ic_default_cancel.xml" value="0.1685" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/amdroidbuttonprogress/src/main/res/drawable/ic_default_download.xml" value="0.1685" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/amdroidbuttonprogress/src/main/res/drawable/ic_default_finish.xml" value="0.1685" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/Eslam/Kotlin/FireApp/stories-progress-view/src/main/res/layout/pausable_progress.xml" value="0.19010416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

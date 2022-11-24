@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AXEmojiView" />
+            <option value="$PROJECT_DIR$/AXEmojiView-EmojidexProvider" />
+            <option value="$PROJECT_DIR$/AXEmojiView-GoogleProvider" />
+            <option value="$PROJECT_DIR$/AXEmojiView-WhatsAppProvider" />
+            <option value="$PROJECT_DIR$/CircualReveal" />
+            <option value="$PROJECT_DIR$/FastScroller" />
+            <option value="$PROJECT_DIR$/OmRecorder" />
+            <option value="$PROJECT_DIR$/RecordView" />
+            <option value="$PROJECT_DIR$/StickyHeader" />
+            <option value="$PROJECT_DIR$/StorageChooser" />
+            <option value="$PROJECT_DIR$/adaptersRealm" />
+            <option value="$PROJECT_DIR$/androidbuttonprogress" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/cameraView" />
+            <option value="$PROJECT_DIR$/ccp" />
+            <option value="$PROJECT_DIR$/expandablecheckrecyclerview" />
+            <option value="$PROJECT_DIR$/expandablerecyclerview" />
+            <option value="$PROJECT_DIR$/hidely" />
+            <option value="$PROJECT_DIR$/imageeditengine" />
+            <option value="$PROJECT_DIR$/materialsearchview" />
+            <option value="$PROJECT_DIR$/matisse" />
+            <option value="$PROJECT_DIR$/multicontactpicker" />
+            <option value="$PROJECT_DIR$/musicwave" />
+            <option value="$PROJECT_DIR$/photoview" />
+            <option value="$PROJECT_DIR$/shimmerlayout" />
+            <option value="$PROJECT_DIR$/shortcutbadger" />
+            <option value="$PROJECT_DIR$/stories-progress-view" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

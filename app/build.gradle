@@ -1,0 +1,143 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+    id 'realm-android'
+}
+
+android {
+    compileSdk rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        applicationId "com.doubleclick.fireapp"
+        minSdk 21
+        targetSdk rootProject.ext.targetSdkVersion
+        versionCode 31
+        versionName "2.1.1"
+        multiDexEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        vectorDrawables.useSupportLibrary = true
+
+        resValue 'string', "app_name", "FireApp"
+        resValue 'string', "app_folder_name", "FireApp"
+
+        resValue 'string', "privacy_policy_link", "http://devlomi.com/fireapp_privacy_policy.html"
+
+        resValue 'string', "group_invite_host", "join.fireapp.devlomi.com"
+
+        resValue 'string', "update_app_link", "http://devlomi.com/"
+
+        resValue 'string', "twitter_account", ""
+        resValue 'string', "website", "https://github.com/CoderEslam"
+        resValue 'string', "email", "eslamghazy600@gmail.com"
+
+        resValue 'string', "agora_app_id", "3c9829af72c348aabed08a731d18f27a"
+
+        resValue 'integer', "max_group_call_count", "11"
+
+        //Maps & Places
+        resValue 'string', "maps_api_key", ""
+        resValue 'string', "foursquare_client_id", "3HYYR5PGVGXHDZ5MGUSMKQE1YRWX43G34CMTNOCM0THIUQNC"
+        //https://foursquare.com/developers/projects/6203e7d1bf3b7656f1204f52/settings
+        resValue 'string', "foursquare_client_secret", "0M3LFF0T0V0AAZJNAPB15JPOFSSUFF5TP3HEOX45XQVKQ2RK"
+
+        //AdMob Ads Units IDs
+        resValue 'string', "banner_unit_id_new_chat", ""
+        resValue 'string', "banner_unit_id_main", ""
+        resValue 'string', "interstitial_ad_id", ""
+        resValue 'string', "admob_app_id", "ca-app-pub-3940256099942544~3347511713"
+
+        //AdMob Ads Enable/Disable
+        resValue 'bool', "are_ads_enabled", "false"
+        resValue 'bool', "is_status_ad_enabled", "false"
+        resValue 'bool', "is_calls_ad_enabled", "false"
+        resValue 'bool', "is_new_chat_ad_enabled", "false"
+        resValue 'bool', "is_interstitial_ad_enabled", "false"
+
+        //Max Group users,Broadcast,Status Time
+        resValue 'integer', "max_status_video_time", "30"
+        resValue 'integer', "max_broadcast_users_count", "100"
+        resValue 'integer', "max_group_users_count", "50"
+
+
+        //enable/disable showing battery optimization dialog
+        resValue 'bool', "ignore_battery_optimizations_dialog", "true"
+
+        //Encryption Types:E2E,AES,NONE
+        resValue 'string', "encryption_type", "AES"
+
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+realm {
+    syncEnabled = true
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation project(path: ':hidely')
+    implementation project(path: ':cameraView')
+    implementation project(path: ':stories-progress-view')
+    implementation project(path: ':imageeditengine')
+    implementation project(path: ':ccp')
+    implementation project(path: ':matisse')
+    implementation project(path: ':photoview')
+    implementation project(path: ':AXEmojiView-WhatsAppProvider')
+    implementation project(path: ':AXEmojiView-EmojidexProvider')
+    implementation project(path: ':AXEmojiView-GoogleProvider')
+    implementation project(path: ':AXEmojiView')
+    implementation project(path: ':OmRecorder')
+    implementation project(path: ':androidbuttonprogress')
+    implementation project(path: ':StorageChooser')
+    implementation project(path: ':StickyHeader')
+    implementation project(path: ':musicwave')
+    implementation project(path: ':expandablecheckrecyclerview')
+    implementation project(path: ':expandablerecyclerview')
+    implementation project(path: ':RecordView')
+    implementation project(path: ':shimmerlayout')
+//    implementation project(path: ':FastScroller')
+//    implementation project(path: ':adaptersRealm')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.hbb20:ccp:2.6.1'
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    implementation 'com.github.bumptech.glide:annotations:4.12.0'
+
+    def emojiViewVersion = "1.5.2"
+    def emojiViewProvider = "AppleProvider"
+
+    implementation "io.github.aghajari:AXEmojiView:$emojiViewVersion"
+    implementation "io.github.aghajari:AXEmojiView-$emojiViewProvider:$emojiViewVersion"
+
+
+
+
+
+
+}
